@@ -92,4 +92,14 @@ The code for the image example from above would look like this;
 The full working example of this code is at <http://www.blunderalong.com/pub/yui3/dt_foot_plugin_basic.html>  
 
 
+### References
 
+YUI contributor Matt Parker developed a "Table footer statistics for YUI 2 DataTable" extension that was 
+documented in his YUIBlog article of January 13, 2011 (see <http://www.yuiblog.com/blog/2011/01/13/table-footer-statistics-for-yui-2-datatable/>).  
+
+Parker's extension supports a number of mathematical functions but was limited to only working on a non-scrollable DataTable.  I also found 
+in my use of his extension that most of the time I simply needed a column "sum", not standard deviations, etc...
+
+Additionally, Satyam provided has provided a very straightforward technique for constructing the TFOOT DOM elements (see <http://www.satyam.com.ar/yui/2.6.0/invoice.html>).
+
+These resources were very informative in developing this Plugin, Thanks Matt and Satyam!
