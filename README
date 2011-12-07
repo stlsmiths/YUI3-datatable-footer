@@ -1,7 +1,9 @@
-DataTableFooter Plugin for YUI 3
+h1. DataTableFooter Plugin for YUI 3
 ================================
 Includes support for DataTableScroll and use of "fixed" (i.e. non-scrolling") footer.
 
 Currently available "macros" are {SUM}, {AVG}, {MIN}, {MAX}, {ROW_COUNT}, {COL_COUNT}, {DATE}, {TIME}.
 
 In the near future we'll be providing a custom function capability .
+
+A working example is available :http://www.blunderalong.com/pub/yui3/dt_footer_plugin_use.html
