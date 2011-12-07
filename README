@@ -1,0 +1,4 @@
+DataTableFooter Plugin for YUI 3
+================================
+Includes support for DataTableScroll and use of "fixed" (i.e. non-scrolling") footer.
+
