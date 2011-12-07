@@ -8,7 +8,7 @@ In the near future we'll be providing a custom function capability (via fnValue)
 
 A working example is available at [dt_footer_plugin_use.html](http://www.blunderalong.com/pub/yui3/dt_footer_plugin_use.html)
 
-An image of a basic DT with footer is <http://www.blunderalong.com/pub/yui3/dtplugin_basic.jpg>
+An image of a basic DT with footer is ![](dt_plugin_basic.jpg)
 
 ### Including the Plugin
 
