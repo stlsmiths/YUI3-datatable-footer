@@ -18,12 +18,18 @@ Include the source code for the plugin on your page as;
 And the CSS file;  
 `<link href="dt_foot_plugin.css" rel="stylesheet" type="text/css" />`
 
-(this has not be contributed to the YUI Gallery yet ... sorry)
+OR you can get it from the YUI Gallery at <http://yuilibrary.com/gallery/show/datatable-footer>, refer there for instructions (or below).
 
 ### Using the Plugin & Configuration
 
 You tell the YUI Loader about this plugin as  
 `YUI().use( "datatable-base", ..... your other stuff ...., "datatable-footer", function(Y) {`
+
+OR if using from YUI Gallery, you would do the following;
+<code>
+ YUI({ gallery: 'gallery-2012.01.11-21-03'  //  or whatever the current gallery build tag is !!
+    }).use( "datatable-base", ..... your other stuff ...., "gallery-datatable-footer", function(Y) {
+</code>
 
 Within your code you attach the plugin to your DataTable instance as a typical YUI Plugin;
 
