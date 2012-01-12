@@ -8,7 +8,7 @@ In the near future we'll be providing a custom function capability (via fnValue)
 
 A working example is available at [dt_footer_plugin_use.html](http://www.blunderalong.com/pub/yui3/dt_footer_plugin_use.html)
 
-An image of a basic DT with footer is <http://www.blunderalong.com/pub/yui3/dtplugin_basic.jpg>
+An image of a basic DT with footer is ![](/dt_plugin_basic.jpg)
 
 ### Including the Plugin
 
@@ -18,12 +18,19 @@ Include the source code for the plugin on your page as;
 And the CSS file;  
 `<link href="dt_foot_plugin.css" rel="stylesheet" type="text/css" />`
 
-(this has not be contributed to the YUI Gallery yet ... sorry)
+OR you can get it from the YUI Gallery at <http://yuilibrary.com/gallery/show/datatable-footer>, refer there for instructions (or below).
 
 ### Using the Plugin & Configuration
 
 You tell the YUI Loader about this plugin as  
 `YUI().use( "datatable-base", ..... your other stuff ...., "datatable-footer", function(Y) {`
+
+OR if using from YUI Gallery, you would do the following;
+
+```
+YUI({ gallery: 'gallery-2012.01.11-21-03'  //  or whatever the current gallery build tag is !!
+  }).use( "datatable-base", ..... your other stuff ...., "gallery-datatable-footer", function(Y) {
+```
 
 Within your code you attach the plugin to your DataTable instance as a typical YUI Plugin;
 
@@ -92,4 +99,14 @@ The code for the image example from above would look like this;
 The full working example of this code is at <http://www.blunderalong.com/pub/yui3/dt_foot_plugin_basic.html>  
 
 
+### References
 
+YUI contributor Matt Parker developed a "Table footer statistics for YUI 2 DataTable" extension that was 
+documented in his YUIBlog article of January 13, 2011 (see <http://www.yuiblog.com/blog/2011/01/13/table-footer-statistics-for-yui-2-datatable/>).  
+
+Parker's extension supports a number of mathematical functions but was limited to only working on a non-scrollable DataTable.  I also found 
+in my use of his extension that most of the time I simply needed a column "sum", not standard deviations, etc...
+
+Additionally, Satyam provided has provided a very straightforward technique for constructing the TFOOT DOM elements (see <http://www.satyam.com.ar/yui/2.6.0/invoice.html>).
+
+These resources were very informative in developing this Plugin, Thanks Matt and Satyam!
