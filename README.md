@@ -8,7 +8,7 @@ In the near future we'll be providing a custom function capability (via fnValue)
 
 A working example is available at [dt_footer_plugin_use.html](http://www.blunderalong.com/pub/yui3/dt_footer_plugin_use.html)
 
-An image of a basic DT with footer is ![](dt_plugin_basic.png)
+An image of a basic DT with footer is ![](/stlsmiths/YUI3-datatable-footer/dt_plugin_basic.png)
 
 ### Including the Plugin
 
