@@ -27,8 +27,10 @@ You tell the YUI Loader about this plugin as
 
 OR if using from YUI Gallery, you would do the following;
 
-`YUI({ gallery: 'gallery-2012.01.11-21-03'  //  or whatever the current gallery build tag is !!`
-`  }).use( "datatable-base", ..... your other stuff ...., "gallery-datatable-footer", function(Y) {`
+```
+YUI({ gallery: 'gallery-2012.01.11-21-03'  //  or whatever the current gallery build tag is !!
+  }).use( "datatable-base", ..... your other stuff ...., "gallery-datatable-footer", function(Y) {
+```
 
 Within your code you attach the plugin to your DataTable instance as a typical YUI Plugin;
 
